@@ -41,3 +41,6 @@ $ docker run -it -p 5000:5000 hugging-face
 - `models/`: the most important folder, contain hugging face models implementation.
   - `hugging_face.py`: class `HuggingFace` is the parrent class, and others will inherit from this class.
   - Feel free to add more models from hugging face.
+ 
+### Current models used
+- Stable diffusion 2-1 (https://huggingface.co/stabilityai/stable-diffusion-2-1)
